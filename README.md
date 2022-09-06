@@ -10,6 +10,14 @@ Informe del Proyecto [PDF.](https://github.com/ManuEly19/Reconocimiento-de-emoci
 Este documento es una Guia básica de como se realizo la implementación para el reconocimiento automático del habla utilizando SPICE de TensorFlow. Adicionalmente la implementacion de SpeechRecongnition el cual transcribe los audios en texto, se realizado en Google Colab. 
 
 ---
+
+### Integrantes:
+- Eduardo Farinango
+- Bryan Tandazo
+- Marlon Tuquerrez
+
+---
+
 # Detección de tono SPICE
 
 Paso1_ El archivo de entrada de audio
