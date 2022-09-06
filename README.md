@@ -114,6 +114,67 @@ Para escucharlo en colab, se necesita convertirlo a wav. Una forma sencilla de h
 !timidity $converted_audio_file_as_midi -Ow -o $wav_from_created_midi
 
 ```
+
+
+# Detección de texto
+
+
+Paso1_ Instalamos las siguientes librias
+---
+```
+pip install pydub numba==0.48 librosa music21
+pip install SpeechRecognition
+```
+
+Paso2_ El archivo de entrada de audio
+---
+Ofrecemos cuatro métodos para obtener un archivo de audio:
+
+1) Grabe audio directamente en colab
+```
+INPUT_SOURCE = 'RECORD'
+```
+2) Sube desde tu computadora
+```
+INPUT_SOURCE = 'UPLOAD'
+```
+3) Utilice un archivo guardado en Google Drive
+```
+INPUT_SOURCE = './drive/'
+```
+4) Descarga el archivo de la web
+```
+INPUT_SOURCE = 'http'
+```
+Paso3_ Preparando los datos de audio
+---
+El modelo SPICE necesita como entrada un archivo de audio a una frecuencia de muestreo de 16kHz y con un solo canal (mono).
+
+- Por ello se creo una función para convertir cualquier archivo de sonido que tiene que formato esperado del modelo:
+```
+convert_audio_for_model
+```
+- Convirtiendo al formato esperado para el modelo
+en todos los métodos de entrada de entrada 4 anteriores, el nombre del archivo cargado está en
+la variable uploaded_file_name
+```
+converted_audio_file = convert_audio_for_model(uploaded_file_name)
+```
+
+Paso4_ Deteccion de texto SpeechRecognition
+---
+
+- Importamos la libreria y ejecutamos la funcion del recognizer y e imprimimos el texto
+```
+import speech_recognition as sr
+
+audio_ex = sr.AudioFile('converted_audio_file.wav')
+
+text = recognizer.recognize_google(audio_data=audiodata, language='en-ES')
+print(text)
+```
+
+
 Referencia
 ---
 
