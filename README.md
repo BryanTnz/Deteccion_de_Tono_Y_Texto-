@@ -11,7 +11,7 @@ Este documento es una Guia básica de como se realizo la implementación para el
 
 ---
 # Detección de tono SPICE
----
+
 Paso1_ El archivo de entrada de audio
 ---
 Ofrecemos cuatro métodos para obtener un archivo de audio:
