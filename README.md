@@ -180,3 +180,8 @@ Referencia
 
 [1]  Tensorflow, «Tensorflow,» Tensorflow, [En línea]. Available: https://www.tensorflow.org/. [Último acceso: 31 08 2022]. 
 
+[2]  B. Lutkevich, «SearchCustomerExperience,» SearchCustomerExperience, 13 09 2021. [En línea]. Available: https://www.techtarget.com/searchcustomerexperience/definition/speech-recognition. [Último acceso: 31 08 2022]. 
+
+[3]  P. S. Foundation, «Python,» Python Software Foundation , [En línea]. Available: https://www.python.org/doc/. [Último acceso: 31 08 2022]. 
+
+
