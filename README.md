@@ -4,7 +4,7 @@ Video de Explicación y Funcionalidad: https://youtu.be/bxf7ZYOXqn8
 
 Video de Manual de Usuario: https://www.youtube.com/watch?v=2xKDfL69Yy4
 
-Informe del Proyecto [PDF.](https://github.com/ManuEly19/Reconocimiento-de-emociones/blob/master/IA-MAuqui-LGuambo-MMendez-JOrtiz-LValencia-DetectorEmociones.pdf)
+Informe del Proyecto [PDF.](https://github.com/BryanTnz/Deteccion_de_Tono_Y_Texto-/blob/main/ProyectoIA-EFarinango-BTandazo-MTuquerres-DeteccionTonoVoz.pdf)
 
 ---
 Este documento es una Guia básica de como se realizo la implementación para el reconocimiento automático del habla utilizando SPICE de TensorFlow. Adicionalmente la implementacion de SpeechRecongnition el cual transcribe los audios en texto, se realizado en Google Colab. 
